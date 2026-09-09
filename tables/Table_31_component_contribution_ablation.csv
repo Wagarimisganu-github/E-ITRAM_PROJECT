@@ -1,5 +1,0 @@
-Configuration,ML,SHAP,LIME,Risk translation,KRI mapping,Accuracy,F1,ROC-AUC,Primary utility metric,Utility result
-A: ML prediction only,True,False,False,False,False,0.8731963270660253,0.8951723029962246,0.983598012322302,Predictive F1,0.8951723029962246
-B: ML + SHAP,True,True,False,False,False,0.8731963270660253,0.8951723029962246,0.983598012322302,SHAP/random deletion-drop ratio at k=5,-149.78412742823215
-C: ML + SHAP + LIME,True,True,True,False,False,0.8731963270660253,0.8951723029962246,0.983598012322302,Mean SHAP-LIME Top5 Jaccard,0.09682539682539683
-D: Complete E-ITRAM,True,True,True,True,True,0.8731963270660253,0.8951723029962246,0.983598012322302,Governance scenario-mapping coverage,1.0
