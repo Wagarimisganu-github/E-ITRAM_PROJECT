@@ -1,0 +1,4 @@
+Comparison,McNemar statistic,p-value,Significant at alpha=0.05,A correct / B wrong,A wrong / B correct
+XGBoost vs Logistic Regression,3452.178465279654,0.0,True,6229,1173
+Random Forest vs Logistic Regression,3296.3433530906013,0.0,True,5960,1126
+XGBoost vs Random Forest,15.149193548387096,9.934073497121336e-05,True,1723,1501

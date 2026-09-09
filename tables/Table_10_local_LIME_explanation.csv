@@ -1,0 +1,13 @@
+Feature condition,LIME weight
+62.00 < num__sttl <= 254.00,0.7019554733973689
+1.00 < num__ct_state_ttl <= 2.00,0.24469824161251286
+cat__proto_wsn <= 0.00,0.23665890710114798
+cat__proto_trunk-2 <= 0.00,-0.2110824875465646
+cat__proto_idrp <= 0.00,0.20593158030570238
+cat__proto_vrrp <= 0.00,0.19159955754281857
+cat__proto_kryptolan <= 0.00,0.1884068987435265
+cat__proto_eigrp <= 0.00,0.17748392226151943
+cat__proto_dcn <= 0.00,0.17675199768233707
+cat__proto_iso-tp4 <= 0.00,0.16196152486404777
+cat__proto_compaq-peer <= 0.00,-0.13077330993344263
+cat__proto_l2tp <= 0.00,0.11686813888037294

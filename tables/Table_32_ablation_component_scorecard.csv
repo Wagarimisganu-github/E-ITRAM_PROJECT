@@ -1,0 +1,7 @@
+Component,Evaluation dimension,Metric,Result
+ML prediction,Discrimination,Test F1,0.8951723029962246
+SHAP,Faithfulness,"SHAP/random deletion-drop ratio, k=5",-149.78412742823215
+LIME,Stability,Repeated Top5 Jaccard,0.6759259259259258
+SHAP + LIME,Cross-method agreement,Top5 Jaccard,0.09682539682539683
+Risk translation,Scenario sensitivity,Impact scenarios evaluated,4.0
+KRI/governance,Governance coverage,Scenario mapping coverage,1.0

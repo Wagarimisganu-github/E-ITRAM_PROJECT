@@ -1,0 +1,11 @@
+Detected behaviour,Potential IT-risk dimension,Illustrative financial-service exposure,Governance consideration
+Normal,Baseline,No identified malicious activity,Monitoring
+Generic,Integrity/Confidentiality,Potential compromise of services or applications,Control assessment
+Exploits,Integrity/Confidentiality,Exploitation of vulnerable applications or services,Vulnerability and change-control review
+DoS,Availability,Disruption of digital channels or supporting services,Resilience and BCP/DR assessment
+Reconnaissance,Exposure,Discovery of attack surface,Vulnerability management
+Fuzzers,Availability/Integrity,Malformed-input or application stress,Secure development and testing
+Backdoors,Confidentiality/Integrity,Unauthorized persistent access,Incident response and access-control review
+Shellcode,Integrity/Confidentiality,Potential unauthorized code execution,Detection and containment
+Worms,Availability/Integrity,Rapid propagation across connected systems,Segmentation and containment
+Analysis,Exposure/Confidentiality,Potential information gathering,Monitoring and investigation

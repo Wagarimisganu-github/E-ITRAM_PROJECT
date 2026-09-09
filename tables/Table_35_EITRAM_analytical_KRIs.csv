@@ -1,0 +1,8 @@
+KRI,Definition,Result
+High-risk event rate,"High + Critical events per 10,000 evaluated observations",6590.390127775348
+Critical-risk proportion,Critical analytical events as % of evaluated observations,57.76976145362678
+False-positive rate,False positives / actual normal observations,26.172972972972975
+False-negative rate,False negatives / actual malicious observations,1.6676961087090798
+Median analytical risk score,Median R = 100 × likelihood × impact,93.59492874145508
+Above-appetite events,Events at/above illustrative appetite threshold,54260
+Dominant predicted category,Most frequent predicted attack category,Normal

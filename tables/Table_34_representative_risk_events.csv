@@ -1,0 +1,4 @@
+label,attack_cat,predicted_malicious_probability,impact_factor,risk_score,risk_category
+0,Normal,2.629864e-05,1.0,0.002629864029586315,Low
+1,Generic,0.9359526,1.0,93.59526062011719,Critical
+1,Generic,0.99998045,1.0,99.998046875,Critical
