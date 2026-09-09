@@ -1,0 +1,12 @@
+{
+  "event_identifier": 18594,
+  "predicted_malicious_probability": 0.9999804496765137,
+  "predicted_attack_category": "Generic",
+  "analytical_risk_score": 99.998046875,
+  "risk_category": "Critical",
+  "risk_dimension": "Integrity/Confidentiality",
+  "KRI": "Above-appetite events",
+  "risk_appetite_status": "Above threshold",
+  "governance_action": "Control assessment",
+  "impact_status": "Illustrative analytical input; institution-defined in deployment"
+}

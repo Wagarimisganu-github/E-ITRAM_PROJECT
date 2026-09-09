@@ -1,0 +1,129 @@
+{
+  "selected_model_name": "XGBoost",
+  "feature_columns": [
+    "dur",
+    "proto",
+    "service",
+    "state",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "sttl",
+    "dttl",
+    "sload",
+    "dload",
+    "sloss",
+    "dloss",
+    "sinpkt",
+    "dinpkt",
+    "sjit",
+    "djit",
+    "swin",
+    "stcpb",
+    "dtcpb",
+    "dwin",
+    "tcprtt",
+    "synack",
+    "ackdat",
+    "smean",
+    "dmean",
+    "trans_depth",
+    "response_body_len",
+    "ct_srv_src",
+    "ct_state_ttl",
+    "ct_dst_ltm",
+    "ct_src_dport_ltm",
+    "ct_dst_sport_ltm",
+    "ct_dst_src_ltm",
+    "is_ftp_login",
+    "ct_ftp_cmd",
+    "ct_flw_http_mthd",
+    "ct_src_ltm",
+    "ct_srv_dst",
+    "is_sm_ips_ports"
+  ],
+  "risk_mapping": [
+    {
+      "Detected behaviour": "Normal",
+      "Potential IT-risk dimension": "Baseline",
+      "Illustrative financial-service exposure": "No identified malicious activity",
+      "Governance consideration": "Monitoring"
+    },
+    {
+      "Detected behaviour": "Generic",
+      "Potential IT-risk dimension": "Integrity/Confidentiality",
+      "Illustrative financial-service exposure": "Potential compromise of services or applications",
+      "Governance consideration": "Control assessment"
+    },
+    {
+      "Detected behaviour": "Exploits",
+      "Potential IT-risk dimension": "Integrity/Confidentiality",
+      "Illustrative financial-service exposure": "Exploitation of vulnerable applications or services",
+      "Governance consideration": "Vulnerability and change-control review"
+    },
+    {
+      "Detected behaviour": "DoS",
+      "Potential IT-risk dimension": "Availability",
+      "Illustrative financial-service exposure": "Disruption of digital channels or supporting services",
+      "Governance consideration": "Resilience and BCP/DR assessment"
+    },
+    {
+      "Detected behaviour": "Reconnaissance",
+      "Potential IT-risk dimension": "Exposure",
+      "Illustrative financial-service exposure": "Discovery of attack surface",
+      "Governance consideration": "Vulnerability management"
+    },
+    {
+      "Detected behaviour": "Fuzzers",
+      "Potential IT-risk dimension": "Availability/Integrity",
+      "Illustrative financial-service exposure": "Malformed-input or application stress",
+      "Governance consideration": "Secure development and testing"
+    },
+    {
+      "Detected behaviour": "Backdoors",
+      "Potential IT-risk dimension": "Confidentiality/Integrity",
+      "Illustrative financial-service exposure": "Unauthorized persistent access",
+      "Governance consideration": "Incident response and access-control review"
+    },
+    {
+      "Detected behaviour": "Shellcode",
+      "Potential IT-risk dimension": "Integrity/Confidentiality",
+      "Illustrative financial-service exposure": "Potential unauthorized code execution",
+      "Governance consideration": "Detection and containment"
+    },
+    {
+      "Detected behaviour": "Worms",
+      "Potential IT-risk dimension": "Availability/Integrity",
+      "Illustrative financial-service exposure": "Rapid propagation across connected systems",
+      "Governance consideration": "Segmentation and containment"
+    },
+    {
+      "Detected behaviour": "Analysis",
+      "Potential IT-risk dimension": "Exposure/Confidentiality",
+      "Illustrative financial-service exposure": "Potential information gathering",
+      "Governance consideration": "Monitoring and investigation"
+    }
+  ],
+  "default_impact_factor": 1.0,
+  "risk_appetite_threshold": 50.0,
+  "risk_bands": {
+    "Low": [
+      0,
+      25
+    ],
+    "Moderate": [
+      25,
+      50
+    ],
+    "High": [
+      50,
+      75
+    ],
+    "Critical": [
+      75,
+      101
+    ]
+  }
+}
