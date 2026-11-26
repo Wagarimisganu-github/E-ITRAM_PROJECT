@@ -1,0 +1,9 @@
+,Passed
+all_model_generalization_gaps,True
+false_positive_volume_computed,True
+calibration_evaluated_without_test_fit,True
+heterogeneous_impact_profiles_generated,True
+scenario_batch_aggregation_generated,True
+NBE_clause_mapping_generated,True
+McNemar_Holm_effects_generated,True
+class_gating_generated,True
