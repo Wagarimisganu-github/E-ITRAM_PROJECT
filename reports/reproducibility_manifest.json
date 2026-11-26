@@ -1,0 +1,43 @@
+{
+  "study": "E-ITRAM",
+  "dataset": "UNSW-NB15",
+  "training_rows": 175341,
+  "testing_rows": 82332,
+  "seed": 42,
+  "selected_model": "XGBoost",
+  "risk_formula": "R = 100 * likelihood * impact",
+  "risk_thresholds": {
+    "Low": [
+      0,
+      25
+    ],
+    "Moderate": [
+      25,
+      50
+    ],
+    "High": [
+      50,
+      75
+    ],
+    "Critical": [
+      75,
+      101
+    ]
+  },
+  "risk_appetite_threshold": 50.0,
+  "impact_scenarios": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "xai_evaluation_n": 300,
+  "lime_events": 30,
+  "lime_repeats": 3,
+  "lime_num_samples": 2000,
+  "bootstrap_n": 2000,
+  "test_used_for_model_selection": false,
+  "test_used_for_preprocessing_fit": false,
+  "test_used_for_threshold_optimization": false,
+  "publication_audit_passed": true
+}
